@@ -77,3 +77,15 @@
 span{
     color: red;
 }
+
+@media screen and (max-width: 767px){
+    .coll-alg{
+        margin-top: 0 !important;
+        font-size: 1rem;
+    }
+    .coll-img{
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+    }
+}
